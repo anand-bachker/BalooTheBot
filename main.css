@@ -131,7 +131,6 @@ h1{
 
 body {
   background-color: #08161f;
-  /* background-color: #0e2431; */
 }
 
 body.dark {
@@ -166,6 +165,9 @@ a {
 
 @media screen and (min-width: 480px) {
 
+  *{
+    user-select: none;
+  }
 .navbarPhone{
     display: none;
   }
@@ -290,6 +292,9 @@ a {
 
 
 @media screen and (max-width: 480px) {
+  *{
+    user-select: none;
+  }
       
       .navbar {
         display: none;
